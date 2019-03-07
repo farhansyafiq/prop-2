@@ -1,0 +1,19 @@
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1.5px solid black;
+}
+
+input:focus{
+	border-bottom: 1.5px solid #31B057;
+	 transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+}
+
+.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover
+{
+	background-color: #31B057; 
+	border-color: #31B057; 
+}
